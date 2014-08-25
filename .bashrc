@@ -122,4 +122,5 @@ if [ -f /home/tim/.local/lib/python2.7/site-packages/powerline/bindings/bash/pow
   source /home/tim/.local/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh
 fi 
 
+# Needed for 256 color mode
 TERM='xterm-256color'
