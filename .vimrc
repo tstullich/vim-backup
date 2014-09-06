@@ -7,6 +7,7 @@ call vundle#begin()
 
 Bundle 'gmarik/vundle'
 Bundle 'plasticboy/vim-markdown'
+Plugin 'bling/vim-airline'
 
 call vundle#end()
 
