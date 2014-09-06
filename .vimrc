@@ -8,6 +8,7 @@ call vundle#begin()
 Bundle 'gmarik/vundle'
 Bundle 'plasticboy/vim-markdown'
 Plugin 'bling/vim-airline'
+Plugin 'Valloric/YouCompleteMe'
 
 call vundle#end()
 
