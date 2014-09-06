@@ -2,26 +2,26 @@
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
 Bundle 'gmarik/vundle'
 Bundle 'plasticboy/vim-markdown'
+
+call vundle#end()
 
 set background=dark
 
 " General configurations for vim
 autocmd FileType make setlocal noexpandtab
 set expandtab
-set tabstop=3
-set shiftwidth=3
+set tabstop=4
+set shiftwidth=4
 set number
 set showmatch
-set matchtime=3
+set matchtime=4
 set encoding=utf8
 syntax on
-set background=dark
-colorscheme solarized
 
 " Tabs for make utility
 autocmd FileType make setlocal noexpandtab
