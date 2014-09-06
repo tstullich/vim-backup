@@ -33,11 +33,17 @@ set laststatus=2
 " Use 256 colours 
 set t_Co=256
 
+" Used for switching between buffers quickly
+map <Tab> :bnext<cr>
+map <S-Tab> :bprevious<cr>
+
 " Config for Pathogen
 execute pathogen#infect()
 
-" More Powerline configuration stff
+" More Powerline configuration stuff
 let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#left_sep = ' '
 
 " Options for Plasticboy Markdown plugin
 let g:vim_markdown_folding_disabled=1
